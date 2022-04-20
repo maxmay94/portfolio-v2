@@ -13,6 +13,7 @@ module.exports = {
         red: colors.red,
         blue: colors.sky,
         yellow: colors.amber,
+        green: colors.lime,
       }
     },
     container: {

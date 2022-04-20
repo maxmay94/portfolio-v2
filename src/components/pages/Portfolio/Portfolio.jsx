@@ -12,7 +12,7 @@ const portfolioData = [
     title: "art critic.",
     link: "https://art-critic.netlify.app/",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Art critic is a FLASK stack application with the front end built on React and made beautiful with Tailwind CSS. Users are given a random selection from the Metropolitan Museum of Art API and asked to give their thoughts on the piece.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const portfolioData = [
     title: "Trouvaille",
     link: "https://trouvaille-by-wanderlust.netlify.app/",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "A MERN stack application, utilizing token based authentication, built on React. Using MapBox and GeoCoding a user can add a city, add places to that city and plan a day out on the town.",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const portfolioData = [
     title: "MTG Deck Builder",
     link: "https://deck-maker-mtg.herokuapp.com/",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "A MEN stack application utilizing an API and Google authentication to allow a user to create decks, view decks, and leave reviews of other users decks. Implements Google OAuth to ensure no other user can mess with your decks.",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const portfolioData = [
     title: "Wordle 2",
     link: "https://maxmay94.github.io/wordle2/",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Based off of the hit game Wordle by Josh Wardle. A fully responsive web application optimized for mobile, with some new exciting new things including a feature to challenge your friends to solve the same word.",
   },
 ];
 

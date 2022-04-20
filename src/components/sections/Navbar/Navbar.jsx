@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 import {
   BrowserRouter as Router,
   NavLink,
   Route,
   Switch,
-} from "react-router-dom";
-import About from "../../pages/About/About";
-import Contact from "../../pages/Contact/Contact";
-import Portfolio from "../../pages/Portfolio/Portfolio";
-import Service from "../../pages/Service/Service";
+} from "react-router-dom"
+import About from "../../pages/About/About"
+import Contact from "../../pages/Contact/Contact"
+import Portfolio from "../../pages/Portfolio/Portfolio"
+import Service from "../../pages/Service/Service"
 
 const navbarData = [
   {
@@ -19,19 +19,19 @@ const navbarData = [
   {
     id: 2,
     title: "Projects",
-    to: "/works",
+    to: "/projects",
   },
   {
     id: 3,
-    title: "Services",
-    to: "/services",
+    title: "Skills",
+    to: "/skills",
   },
   {
     id: 4,
     title: "Contact",
     to: "/contact",
   },
-];
+]
 
 const Navbar = () => {
   return (
@@ -48,10 +48,10 @@ const Navbar = () => {
         <Route exact path="/">
           <About />
         </Route>
-        <Route path="/services">
+        <Route path="/skills">
           <Service />
         </Route>
-        <Route path="/works">
+        <Route path="/projects">
           <Portfolio />
         </Route>
         <Route path="/contact">
@@ -62,22 +62,22 @@ const Navbar = () => {
         </Route>
       </Switch>
     </Router>
-  );
-};
+  )
+}
 
 export default Navbar;
 
 const LinkItem = (props) => {
-  const { title, to } = props.el;
+  const { title, to } = props.el
   return (
     <li className="m-3 lg:mx-5 flex-grow">
       <NavLink
         to={to}
-        activeClassName="text-yellow-600"
+        activeClassName="text-green-600"
         className="grow text-gray-200 text-medium hover:text-yellow-600"
       >
         {title}
       </NavLink>
     </li>
-  );
-};
+  )
+}
