@@ -6,7 +6,6 @@ import {
   Switch,
 } from "react-router-dom";
 import About from "../../pages/About/About";
-import Blog from "../../pages/Blog/Blog";
 import Contact from "../../pages/Contact/Contact";
 import Portfolio from "../../pages/Portfolio/Portfolio";
 import Service from "../../pages/Service/Service";
@@ -29,11 +28,6 @@ const navbarData = [
   },
   {
     id: 4,
-    title: "Blogs",
-    to: "/blogs",
-  },
-  {
-    id: 5,
     title: "Contact",
     to: "/contact",
   },
@@ -60,9 +54,6 @@ const Navbar = () => {
         <Route path="/works">
           <Portfolio />
         </Route>
-        <Route path="/blogs">
-          <Blog />
-        </Route>
         <Route path="/contact">
           <Contact />
         </Route>
@@ -79,11 +70,11 @@ export default Navbar;
 const LinkItem = (props) => {
   const { title, to } = props.el;
   return (
-    <li className="m-3 lg:mx-5">
+    <li className="m-3 lg:mx-5 flex-grow">
       <NavLink
         to={to}
         activeClassName="text-yellow-600"
-        className="text-gray-200 text-medium hover:text-yellow-600"
+        className="grow text-gray-200 text-medium hover:text-yellow-600"
       >
         {title}
       </NavLink>

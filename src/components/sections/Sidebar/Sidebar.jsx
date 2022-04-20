@@ -68,7 +68,7 @@ const SocialIcon = (props) => {
     <li className="m-2">
       <a
         href={link}
-        className="w-8 h-8 bg-gray-800 rounded text-yellow-500 flex items-center justify-center hover:text-gray-100 hover:bg-yellow-500"
+        className="w-8 h-8 bg-gray-800 rounded text-gray-200 flex items-center justify-center hover:text-gray-100 hover:bg-yellow-500"
       >
         {icon}
       </a>
