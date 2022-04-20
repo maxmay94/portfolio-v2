@@ -2,17 +2,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 p-4 absolute bottom-0 left-0 w-full">
+    <footer className="bg-black p-4 absolute bottom-0 left-0 w-full">
       <div className="container px-4">
         <p className="text-sm text-gray-400 text-center">
-          Designed and Developed by
+          Contact Me at : 
           <a
-            className="text-purple-600"
-            href="https://uideck.com/"
+            className="text-yellow-600"
+            href="#0"
             rel="nofollow"
           >
             {" "}
-            UIdeck
+            maxmay94@gmail.com
           </a>
         </p>
       </div>

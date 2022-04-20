@@ -5,7 +5,7 @@ const PortfolioItem = (props) => {
   const { image, title, link, description } = props.portfolio;
   return (
     <div className="w-full lg:w-1/2">
-      <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-gray-900 group hover:shadow-md">
+      <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-gray-900 bg-opacity-100 group hover:shadow-md">
         <div className="relative mb-6 w-full h-48 bg-yellw-200 rounded-md overflow-hidden">
           <img
             src={image}

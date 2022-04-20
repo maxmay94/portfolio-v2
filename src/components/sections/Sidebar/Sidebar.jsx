@@ -10,17 +10,17 @@ const socials = [
   {
     id: 2,
     icon: <FaGithub />,
-    link: "#0",
+    link: "https://github.com/maxmay94",
   },
   {
     id: 3,
     icon: <FaLinkedinIn />,
-    link: "#0",
+    link: "https://www.linkedin.com/in/maximillian-may/",
   },
   {
     id: 4,
     icon: <FaInstagram />,
-    link: "#0",
+    link: "https://www.instagram.com/maymaximillian/",
   },
 ]
 
