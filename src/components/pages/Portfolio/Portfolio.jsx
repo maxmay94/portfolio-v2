@@ -1,9 +1,9 @@
-import React from "react";
-import image1 from "../../../images/portfolio/art-critic.png";
-import image2 from "../../../images/portfolio/trouvaille.png";
-import image3 from "../../../images/portfolio/mtg-deck-builder.png";
-import image4 from "../../../images/portfolio/wordle-2.png";
-import PortfolioItem from "./PortfolioItem";
+import React from "react"
+import image1 from "../../../images/portfolio/art-critic.png"
+import image2 from "../../../images/portfolio/trouvaille.png"
+import image3 from "../../../images/portfolio/mtg-deck-builder.png"
+import image4 from "../../../images/portfolio/wordle-2.png"
+import PortfolioItem from "./PortfolioItem"
 
 const portfolioData = [
   {
@@ -49,7 +49,7 @@ const Portfolio = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio

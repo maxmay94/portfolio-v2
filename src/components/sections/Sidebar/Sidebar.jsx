@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-} from "react-icons/fa";
-import profile from "../../../images/profile.jpg";
+} from "react-icons/fa"
+import profile from "../../../images/profile.jpg"
 import resume from './resume.pdf'
 
 const socials = [
@@ -54,7 +54,7 @@ const Sidebar = () => {
           About Me
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Hey! I'm Max—bartender in a past life, full-stack software engineer in the present. When I'm not writing code, you can find me mixing drinks, making music, or hurtling down a mountain on my snowboard.
+          Hey! I'm Max—bartender in a past life, software engineer in the present. When I'm not writing code, you might find me mixing drinks, making music, or hurtling down a mountain on my snowboard.
         </p>
       </div>
     </aside>

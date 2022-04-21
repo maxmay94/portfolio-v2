@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const ServiceItem = (props) => {
   const { icon, title, description } = props.service;
@@ -12,7 +12,7 @@ const ServiceItem = (props) => {
         <p className="text-gray-400">{description}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default ServiceItem;

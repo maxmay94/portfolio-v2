@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {GithubContribution} from 'react-github-contributions-component'
 
 const Skills = () => {
@@ -12,4 +12,4 @@ const Skills = () => {
   )
 }
 
-export default Skills;
+export default Skills

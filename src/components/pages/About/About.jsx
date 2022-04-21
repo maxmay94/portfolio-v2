@@ -1,5 +1,5 @@
-import React from "react";
-import Skills from "./Skills/Skills";
+import React from "react"
+import Skills from "./Skills/Skills"
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

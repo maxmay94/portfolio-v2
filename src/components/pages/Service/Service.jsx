@@ -1,7 +1,7 @@
-import React from "react";
-import { FaCode, FaReact, FaPython, FaDatabase, FaJsSquare } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import ServiceItem from "./ServiceItem";
+import React from "react"
+import { FaCode, FaReact, FaPython, FaDatabase, FaJsSquare } from "react-icons/fa"
+import { SiTailwindcss } from "react-icons/si"
+import ServiceItem from "./ServiceItem"
 
 const serviceData = [
   {
@@ -57,7 +57,7 @@ const Service = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Service;
+export default Service

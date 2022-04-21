@@ -1,8 +1,8 @@
-import React from "react";
-import { FaRegEye } from "react-icons/fa";
+import React from "react"
+import { FaRegEye } from "react-icons/fa"
 
 const PortfolioItem = (props) => {
-  const { image, title, link, description } = props.portfolio;
+  const { image, title, link, description } = props.portfolio
   return (
     <div className="w-full lg:w-1/2">
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-gray-900 bg-opacity-100 group hover:shadow-md">
@@ -31,7 +31,7 @@ const PortfolioItem = (props) => {
         <p className="text-gray-400">{description}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PortfolioItem;
+export default PortfolioItem
