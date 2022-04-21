@@ -19,7 +19,7 @@ const PortfolioItem = (props) => {
                   href={link}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-12 h-10 text-xl text-yellow-600 flex items-center justify-center border-2 border-yellow-600 rounded hover:text-white hover:bg-yellow-600"
+                  className="w-12 h-10 text-xl text-yellow-500 flex items-center justify-center border-2 border-yellow-500 rounded hover:text-white hover:bg-yellow-500"
                 >
                   <FaRegEye />
                 </a>
