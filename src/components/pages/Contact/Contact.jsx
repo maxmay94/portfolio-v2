@@ -1,12 +1,45 @@
-import React from "react"
+import React, { useRef } from "react"
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
+import * as emailjs from 'emailjs-com'
+
+const EMAIL_KEY = process.env.REACT_APP_EMAIL_KEY
+const SERVICE_ID = process.env.REACT_APP_SERVICE_EMAIL_KEY
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_EMAIL
 
 const Contact = () => {
+
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs.sendForm(
+      SERVICE_ID,
+      TEMPLATE_ID,
+      form.current,
+      EMAIL_KEY,
+      form.email,
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+          alert("SUCCESS!")
+        },
+        (error) => {
+          console.log(error.text)
+          alert("FAILED...", error)
+        }
+      )
+  }
+
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        <form className="p-8 md:mx-4 bg-gray-900 rounded-md shadow-md">
+        <form 
+          className="p-8 md:mx-4 bg-gray-900 rounded-md shadow-md"
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <div className="m-3">
             <h3 className="text-2xl text-gray-200 font-bold mb-6">
               Get in Touch
@@ -19,6 +52,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Your Name"
+                  id="name"
                   required
                   className="w-full border border-gray-500 rounded py-4 px-6 text-sm bg-gray-200"
                 />
@@ -29,19 +63,9 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
+                  id="email"
                   required
                   placeholder="Your Email"
-                  className="w-full border border-gray-500 rounded py-4 px-6 text-sm bg-gray-200"
-                />
-              </div>
-            </div>
-            <div className="w-full">
-              <div className="m-3">
-                <input
-                  type="text"
-                  name="subject"
-                  required
-                  placeholder="Subject"
                   className="w-full border border-gray-500 rounded py-4 px-6 text-sm bg-gray-200"
                 />
               </div>
