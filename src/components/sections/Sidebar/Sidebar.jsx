@@ -54,7 +54,7 @@ const Sidebar = () => {
           About Me
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Hey! I'm Max, bartender in a past life, software developer in the present. When I'm not writing code you can find me mixing drinks, making music, or hurdling down a mountain on my snowboard.
+          Hey! I'm Max, bartender in a past life, software developer in the present. When I'm not writing code you can find me mixing drinks, making music, or hurtling down a mountain on my snowboard.
         </p>
       </div>
     </aside>
