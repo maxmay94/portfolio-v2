@@ -54,7 +54,7 @@ const Sidebar = () => {
           About Me
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-        I am a full-stack software engineer and former bartender. Throughout my career, I’ve found that every challenge can be overcome with a solid work ethic, strong communication, and a committed team. I love the creative and intellectual stimulation of solving a tough coding problem. I look forward to bringing my work-ethic and creativity with me into a new role as a software engineer.
+          Hey! I'm Max, bartender in a past life, software developer in the present. When I'm not writing code you can find me mixing drinks, making music, or hurdling down a mountain on my snowboard.
         </p>
       </div>
     </aside>
