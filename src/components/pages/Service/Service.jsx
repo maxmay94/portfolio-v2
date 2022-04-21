@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBootstrap, FaCode, FaHtml5, FaReact, FaPython, FaDatabase, FaGithub, FaJsSquare } from "react-icons/fa";
+import { FaCode, FaReact, FaPython, FaDatabase, FaJsSquare } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import ServiceItem from "./ServiceItem";
 
@@ -7,44 +7,44 @@ const serviceData = [
   {
     id: 1,
     icon: <FaJsSquare />,
-    title: "Web Design",
+    title: "JavaScript",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "My Language of choice. JavaScript is easy to work with and quick to get from idea to a finished product. Its ability to adapt to whatever you could want to do with it makes it hard not to love.",
   },
   {
     id: 2,
-    icon: <FaCode />,
-    title: "Web Development",
+    icon: <FaReact />,
+    title: "React / Express",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "React really is incredible! There are, of course, many other libraries and frameworks I'd love to learn, but React seems to be limitless.",
   },
   {
     id: 3,
-    icon: <FaReact />,
-    title: "React",
+    icon: <SiTailwindcss />,
+    title: "Tailwind / Bootstrap CSS ",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Tailwind is my go-to for styling. I'm well acquainted with Bootstrap and vanilla CSS as well, but I love the simple elegance of Tailwind.",
   },
   {
     id: 4,
     icon: <FaPython />,
-    title: "Bootstrap Template",
+    title: "Python",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "Python is an incredibly simple and powerful language. I'm excited to get to know it better and experiment with TensorFlow and other interesting libraries.",
   },
   {
     id: 5,
-    icon: <SiTailwindcss />,
-    title: "Tailwindcss Template",
+    icon: <FaCode />,
+    title: "REST / CRUD",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "The internet is built on RESTful foundations and we interact with it using CRUD. These two concepts are paramount and their importance can’t be overstated.",
   },
   {
     id: 6,
     icon: <FaDatabase />,
-    title: "Mongo DB / SQL",
+    title: "Mongo DB / PostgreSQL",
     description:
-      "Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.",
+      "The ability to perform CRUD operations on persistent data makes the internet a much more interesting and usable place.",
   },
 ];
 
