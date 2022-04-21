@@ -22,11 +22,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text)
-          alert("SUCCESS!")
+          alert("Thanks for the message! I'll get back to you soon!")
         },
         (error) => {
           console.log(error.text)
-          alert("FAILED...", error)
+          alert("Oops, looks like something went wrong...", error)
         }
       )
   }
