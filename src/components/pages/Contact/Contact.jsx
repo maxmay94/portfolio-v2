@@ -18,7 +18,6 @@ const Contact = () => {
       TEMPLATE_ID,
       form.current,
       EMAIL_KEY,
-      form.email,
       )
       .then(
         (result) => {
@@ -36,9 +35,9 @@ const Contact = () => {
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
         <form 
-          className="p-8 md:mx-4 bg-gray-900 rounded-md shadow-md"
           ref={form}
           onSubmit={sendEmail}
+          className="p-8 md:mx-4 bg-gray-900 rounded-md shadow-md"
         >
           <div className="m-3">
             <h3 className="text-2xl text-gray-200 font-bold mb-6">
