@@ -70,6 +70,8 @@ const SocialIcon = (props) => {
       <a
         href={link}
         className="w-8 h-8 bg-gray-800 rounded text-gray-200 flex items-center justify-center hover:text-gray-100 hover:bg-green-700"
+        target="_blank" 
+        rel="noopener noreferrer"
       >
         {icon}
       </a>
