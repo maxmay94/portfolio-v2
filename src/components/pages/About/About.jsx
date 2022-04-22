@@ -13,7 +13,7 @@ const About = () => {
             </p> */}
 
             <p className="text-sm text-gray-400 leading-6 mb-3">
-              Throughout my career, I’ve found that every challenge can be overcome with a solid work ethic, strong communication, and a committed team. I love finding interesting solutions to tough coding problems. I’m bringing my creativity and ambition to software engineering.  
+              Throughout my career, I’ve found that every challenge can be overcome with a solid work ethic, strong communication, and a committed team. I love finding interesting solutions to tough coding problems. I’m bringing my creativity, curiosity, and ambition to software engineering.  
             </p>
 
           </div>
