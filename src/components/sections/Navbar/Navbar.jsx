@@ -13,7 +13,7 @@ import Service from "../../pages/Service/Service"
 const navbarData = [
   {
     id: 1,
-    title: "About",
+    title: "About Me",
     to: "/about",
   },
   {

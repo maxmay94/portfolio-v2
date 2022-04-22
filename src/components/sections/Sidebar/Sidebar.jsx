@@ -49,7 +49,7 @@ const Sidebar = () => {
           ))}
         </ul>
       </div>
-      <div className="text-start pt-4">
+      <div className="text-start pt-4 lg:pl-5">
         <h3 className="text-md mb-2 font-medium text-gray-200">
           Hey!
         </h3>

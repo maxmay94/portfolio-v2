@@ -12,7 +12,7 @@ const portfolioData = [
     title: "art critic.",
     link: "https://art-critic.netlify.app/",
     description:
-      "A FLASK stack application with the front end built on React and made beautiful with Tailwind CSS. Users are given a random selection from the Metropolitan Museum of Art API and asked to share their thoughts on the piece.",
+      "A FLASK stack application with the front end built on React and beautified with Tailwind CSS. Pulls a random selection from the Metropolitan Museum of Art API and asks users to share their thoughts on the piece.",
   },
   {
     id: 2,
@@ -20,12 +20,12 @@ const portfolioData = [
     title: "Trouvaille",
     link: "https://trouvaille-by-wanderlust.netlify.app/",
     description:
-      "A MERN stack application built on React that utilizes token based authentication. Using MapBox and GeoCoding, a user can input a city, add sites to that city, and plan out a day on the town.",
+      "A MERN stack application built on React with token-based authentication, MapBox, and GeoCoding. Users can input a city, add sites to that city, and plan out a day on the town.",
   },
   {
     id: 3,
     image: image3,
-    title: "Magic The Gathering Deck Builder",
+    title: "Magic: The Gathering Deck Builder",
     link: "https://deck-maker-mtg.herokuapp.com/",
     description:
       "A MEN stack application utilizing an API and Google authentication to allow a user to create decks, view decks, and leave reviews of other users’ decks. Implements Google OAuth to ensure no other user can mess with your decks.",

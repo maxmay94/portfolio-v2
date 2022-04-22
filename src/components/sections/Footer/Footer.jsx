@@ -12,7 +12,7 @@ const Footer = () => {
             rel="nofollow"
           >
             {" "}
-            maxmay94@gmail.com
+            hey@maxmay.xyz
           </a>
         </p>
       </div>
