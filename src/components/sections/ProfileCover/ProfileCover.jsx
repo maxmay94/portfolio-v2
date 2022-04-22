@@ -3,7 +3,7 @@ import cover from "../../../images/fuzz-2.gif"
 
 const ProfileCover = () => {
   return (
-    <div className="h-fit w-full md:-mt-28">
+    <div className="h-fit w-full -mt-4 md:-mt-28 lg:-mt-32">
       <img
         src={cover}
         alt="cover"
