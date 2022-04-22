@@ -50,11 +50,11 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="text-start pt-4">
-        <h3 className="text-md mb-2 uppercase font-medium text-gray-200">
-          About Me
+        <h3 className="text-md mb-2 font-medium text-gray-200">
+          Hey!
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Hey! I'm Max—bartender in a past life, software engineer in the present. When I'm not writing code, you might find me mixing drinks, making music, or hurtling down a mountain on my snowboard.
+          I'm Max—bartender in a past life, software engineer in the present. When I'm not writing code, you might find me mixing drinks, making music, or hurtling down a mountain on my snowboard.
         </p>
       </div>
     </aside>

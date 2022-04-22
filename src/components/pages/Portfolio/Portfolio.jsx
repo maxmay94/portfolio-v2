@@ -36,7 +36,7 @@ const portfolioData = [
     title: "Wordle2",
     link: "https://maxmay94.github.io/wordle2/",
     description:
-      "A take on the hit game by Josh Wardle. A fully responsive web application optimized for mobile with some exciting new features—including the ability to challenge your friends to solve the same word puzzle.",
+      "My take on Josh Wardle’s  hit game. This fully responsive web application is optimized for mobile and has some exciting new features—including the ability to challenge your friends to solve the same word puzzle.",
   },
 ];
 
