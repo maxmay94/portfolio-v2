@@ -3,7 +3,7 @@
 This is my portfolio, a place to show off my accomplishments and hopefully get noticed by a potential employer.
 
 ## Check it out! 🔭
-[Take a look at my portfolio!](https://maxmay.netlify.app/))
+[Take a look at my portfolio!](https://maxmay.netlify.app/)
 
 ## Technologies Used  💻
 
