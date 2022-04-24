@@ -36,7 +36,7 @@ const PortfolioItem = (props) => {
           target="_blank"
           rel="noreferrer"
         >
-          Link to github page
+          Link to GitHub page
         </a>
         {
           github2 &&
@@ -47,7 +47,7 @@ const PortfolioItem = (props) => {
               target="_blank"
               rel="noreferrer"
             >
-              Link to backend Github
+              Link to back-end GitHub page
             </a>
           </div>
         }
