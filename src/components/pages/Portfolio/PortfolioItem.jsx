@@ -29,14 +29,27 @@ const PortfolioItem = (props) => {
         </div>
         <h3 className="text-lg font-medium text-gray-200 mb-2">{title}</h3>
         <p className="text-gray-400">{description}</p>
-        <a href={github}> 
+        <br />
+        <a 
+          href={github}
+          className="text-green-500 hover:text-yellow-500"
+          target="_blank"
+          rel="noreferrer"
+        >
           Link to github page
         </a>
         {
           github2 &&
-          <a href={github2}>
-            Link to
-          </a>
+          <div>
+            <a 
+              href={github2}
+              className="text-green-500 hover:text-yellow-500"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link to backend Github
+            </a>
+          </div>
         }
       </div>
     </div>
