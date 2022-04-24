@@ -13,6 +13,8 @@ const portfolioData = [
     link: "https://art-critic.netlify.app/",
     description:
       "A FLASK stack application with the front end built on React and beautified with Tailwind CSS. Pulls a random selection from the Metropolitan Museum of Art API and asks users to share their thoughts on the piece.",
+    github: "https://github.com/maxmay94/art-critic-frontend",
+    github2: "https://github.com/maxmay94/art-critic-api" 
   },
   {
     id: 2,
@@ -21,6 +23,8 @@ const portfolioData = [
     link: "https://trouvaille-by-wanderlust.netlify.app/",
     description:
       "A MERN stack application built on React with token-based authentication, MapBox, and GeoCoding. Users can input a city, add sites to that city, and plan out a day on the town.",
+    github: "https://github.com/giamazonas/trouvaille-front-end",
+    github2: "https://github.com/giamazonas/trouvaille-back-end"
   },
   {
     id: 3,
@@ -29,6 +33,7 @@ const portfolioData = [
     link: "https://deck-maker-mtg.herokuapp.com/",
     description:
       "A MEN stack application utilizing an API and Google authentication to allow a user to create decks, view decks, and leave reviews of other users’ decks. Implements Google OAuth to ensure no other user can mess with your decks.",
+    github: "https://github.com/maxmay94/mtg-deck-builder"
   },
   {
     id: 4,
@@ -37,6 +42,7 @@ const portfolioData = [
     link: "https://maxmay94.github.io/wordle2/",
     description:
       "My take on Josh Wardle’s  hit game. This fully responsive web application is optimized for mobile and has some exciting new features—including the ability to challenge your friends to solve the same word puzzle.",
+    github: "https://github.com/maxmay94/wordle2"
   },
 ];
 

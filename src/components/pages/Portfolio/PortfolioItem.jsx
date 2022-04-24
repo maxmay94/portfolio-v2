@@ -2,7 +2,7 @@ import React from "react"
 import { FaRegEye } from "react-icons/fa"
 
 const PortfolioItem = (props) => {
-  const { image, title, link, description } = props.portfolio
+  const { image, title, link, description, github, github2 } = props.portfolio
   return (
     <div className="w-full lg:w-1/2">
       <div className="my-4 md:mx-4 shadow p-6 rounded-md bg-gray-900 bg-opacity-100 group hover:shadow-md">
@@ -29,6 +29,15 @@ const PortfolioItem = (props) => {
         </div>
         <h3 className="text-lg font-medium text-gray-200 mb-2">{title}</h3>
         <p className="text-gray-400">{description}</p>
+        <a href={github}> 
+          Link to github page
+        </a>
+        {
+          github2 &&
+          <a href={github2}>
+            Link to
+          </a>
+        }
       </div>
     </div>
   )
