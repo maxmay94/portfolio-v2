@@ -34,7 +34,6 @@ const ServiceItem = (props) => {
               {icon4}
             </div>
           }
-          
         </div>
         <div>
           {

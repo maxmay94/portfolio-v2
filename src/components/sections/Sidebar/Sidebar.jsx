@@ -5,21 +5,21 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa"
 import profile from "../../../images/profile.jpg"
-import resume from './resume.pdf'
+import resume from './maximillian_may.pdf'
 
 const socials = [
   {
-    id: 2,
+    id: 1,
     icon: <FaGithub />,
     link: "https://github.com/maxmay94",
   },
   {
-    id: 3,
+    id: 2,
     icon: <FaLinkedinIn />,
     link: "https://www.linkedin.com/in/maximillian-may/",
   },
   {
-    id: 4,
+    id: 3,
     icon: <FaInstagram />,
     link: "https://www.instagram.com/maymaximillian/",
   },
@@ -39,7 +39,7 @@ const Sidebar = () => {
         <a
           href={resume}
           className="inline-block mb-3 rounded bg-yellow-500 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-yellow-600"
-          download="Resume"
+          download="maximillian_may"
         >
           Download Resume
         </a>
