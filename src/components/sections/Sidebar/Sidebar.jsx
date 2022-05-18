@@ -39,7 +39,7 @@ const Sidebar = () => {
         <a
           href={resume}
           className="inline-block mb-3 rounded bg-yellow-500 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-yellow-600"
-          download="maximillian_may"
+          download="maximillian_may_resume"
         >
           Download Resume
         </a>
