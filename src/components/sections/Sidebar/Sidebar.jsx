@@ -5,7 +5,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa"
 import profile from "../../../images/profile.jpg"
-import resume from './maximillian_may.pdf'
+import resume from './maximillian_may_resume.pdf'
 
 const socials = [
   {
