@@ -3,11 +3,33 @@ import image1 from "../../../images/portfolio/art-critic.png"
 import image2 from "../../../images/portfolio/trouvaille.png"
 import image3 from "../../../images/portfolio/mtg-deck-builder.png"
 import image4 from "../../../images/portfolio/wordle-2.png"
+import image5 from "../../../images/portfolio/spelling-bee.png"
+import image6 from "../../../images/portfolio/jeopardee.png"
+
 import PortfolioItem from "./PortfolioItem"
 
 const portfolioData = [
   {
     id: 1,
+    image: image5,
+    title: "spelling bee",
+    link: "https://spellingb.netlify.app/",
+    description:
+      "A front-end React App made to replicate the game Spelling-Bee by the New York Times.",
+    github: "https://github.com/maxmay94/spelling-bee"
+  },
+  {
+    id: 2,
+    image: image6,
+    title: "Jeopardee!",
+    link: "https://jeopardee.netlify.app",
+    description:
+      "A full-stack react app made for Staff training at Chickadee restaurant in Boston.",
+    github: "https://github.com/maxmay94/jeopardee-front-end",
+    github2: "https://github.com/maxmay94/jeopardee-back-end"
+  },
+  {
+    id: 3,
     image: image1,
     title: "art critic.",
     link: "https://art-critic.netlify.app/",
@@ -17,7 +39,7 @@ const portfolioData = [
     github2: "https://github.com/maxmay94/art-critic-api" 
   },
   {
-    id: 2,
+    id: 4,
     image: image2,
     title: "Trouvaille",
     link: "https://trouvaille-by-wanderlust.netlify.app/",
@@ -27,7 +49,7 @@ const portfolioData = [
     github2: "https://github.com/giamazonas/trouvaille-back-end"
   },
   {
-    id: 3,
+    id: 5,
     image: image3,
     title: "Magic: The Gathering Deck Builder",
     link: "https://deck-maker-mtg.herokuapp.com/",
@@ -36,7 +58,7 @@ const portfolioData = [
     github: "https://github.com/maxmay94/mtg-deck-builder"
   },
   {
-    id: 4,
+    id: 6,
     image: image4,
     title: "Wordle2",
     link: "https://maxmay94.github.io/wordle2/",
