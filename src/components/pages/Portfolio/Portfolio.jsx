@@ -5,31 +5,50 @@ import image3 from "../../../images/portfolio/mtg-deck-builder.png"
 import image4 from "../../../images/portfolio/wordle-2.png"
 import image5 from "../../../images/portfolio/spelling-bee.png"
 import image6 from "../../../images/portfolio/jeopardee.png"
+import image7 from "../../../images/portfolio/dr_may.png"
 
 import PortfolioItem from "./PortfolioItem"
 
 const portfolioData = [
   {
     id: 1,
+    image: image7,
+    title: "My Dr. May",
+    link: "https://spellingb.netlify.app/",
+    description:
+      "A modern and responsive single-page website made for a chiropractor using React.",
+    github: "https://github.com/maxmay94/dr_may_2"
+  },
+  {
+    id: 2,
     image: image5,
     title: "spelling bee",
     link: "https://spellingb.netlify.app/",
     description:
-      "A front-end React App made to replicate the game Spelling-Bee by the New York Times.",
+    "A front-end React App made to replicate the game Spelling-Bee by the New York Times.",
     github: "https://github.com/maxmay94/spelling-bee"
   },
   {
-    id: 2,
+    id: 7,
+    image: image4,
+    title: "Wordle2",
+    link: "https://maxmay94.github.io/wordle2/",
+    description:
+      "My take on Josh Wardle’s  hit game. This fully responsive web application is optimized for mobile and has some exciting new features—including the ability to challenge your friends to solve the same word puzzle.",
+    github: "https://github.com/maxmay94/wordle2"
+  },
+  {
+    id: 3,
     image: image6,
     title: "Jeopardee!",
     link: "https://jeopardee.netlify.app",
     description:
-      "A full-stack react app made for Staff training at Chickadee restaurant in Boston.",
+      "A MERN-stack react app made for Staff training at Chickadee restaurant in Boston.",
     github: "https://github.com/maxmay94/jeopardee-front-end",
     github2: "https://github.com/maxmay94/jeopardee-back-end"
   },
   {
-    id: 3,
+    id: 4,
     image: image1,
     title: "art critic.",
     link: "https://art-critic.netlify.app/",
@@ -39,7 +58,7 @@ const portfolioData = [
     github2: "https://github.com/maxmay94/art-critic-api" 
   },
   {
-    id: 4,
+    id: 5,
     image: image2,
     title: "Trouvaille",
     link: "https://trouvaille-by-wanderlust.netlify.app/",
@@ -49,22 +68,13 @@ const portfolioData = [
     github2: "https://github.com/giamazonas/trouvaille-back-end"
   },
   {
-    id: 5,
+    id: 6,
     image: image3,
     title: "Magic: The Gathering Deck Builder",
     link: "https://deck-maker-mtg.herokuapp.com/",
     description:
       "A MEN stack application utilizing an API and Google authentication to allow a user to create decks, view decks, and leave reviews of other users’ decks. Implements Google OAuth to ensure no other user can mess with your decks.",
     github: "https://github.com/maxmay94/mtg-deck-builder"
-  },
-  {
-    id: 6,
-    image: image4,
-    title: "Wordle2",
-    link: "https://maxmay94.github.io/wordle2/",
-    description:
-      "My take on Josh Wardle’s  hit game. This fully responsive web application is optimized for mobile and has some exciting new features—including the ability to challenge your friends to solve the same word puzzle.",
-    github: "https://github.com/maxmay94/wordle2"
   },
 ];
 
