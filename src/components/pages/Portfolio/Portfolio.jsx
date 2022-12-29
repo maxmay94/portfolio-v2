@@ -14,7 +14,7 @@ const portfolioData = [
     id: 1,
     image: image7,
     title: "My Dr. May",
-    link: "https://spellingb.netlify.app/",
+    link: "https://mydrmay.netlify.app/",
     description:
       "A modern and responsive single-page website made for a chiropractor using React.",
     github: "https://github.com/maxmay94/dr_may_2"
