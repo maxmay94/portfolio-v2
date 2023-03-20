@@ -6,10 +6,30 @@ import image4 from "../../../images/portfolio/wordle-2.png"
 import image5 from "../../../images/portfolio/spelling-bee.png"
 import image6 from "../../../images/portfolio/jeopardee.png"
 import image7 from "../../../images/portfolio/dr_may.png"
+import image8 from "../../../images/portfolio/lens.png"
+import image9 from "../../../images/portfolio/spincycle.png"
 
 import PortfolioItem from "./PortfolioItem"
 
 const portfolioData = [
+  {
+    id: 1,
+    image: image9,
+    title: "SpinCycle",
+    link: "https://spin-cycle-test-page.netlify.app/",
+    description:
+      "Home page for a Boston based startup. Made with React and Tailwind CSS.",
+    github: "https://github.com/SpinCycleDev/spincycle-home-page"
+  },
+  {
+    id: 1,
+    image: image8,
+    title: "My Dr. May - LENS",
+    link: "https://mydrmay-lens.netlify.app/",
+    description:
+      "A website for a LENS practitioner made with React and React Three Fiber.",
+    github: "https://github.com/maxmay94/dr_may_lens"
+  },
   {
     id: 1,
     image: image7,
